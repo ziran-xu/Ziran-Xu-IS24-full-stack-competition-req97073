@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from 'axios';
+import './App.css';
 
 // User story 3: this form allows user to add products and edit products
 function ProductForm(props) {
