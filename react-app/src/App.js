@@ -56,8 +56,19 @@ function App() {
       <button className="add-product-button" onClick={() => setOpenForm(!openForm)}>
         {openForm? 'Cancel' : 'Add New Product'}
       </button>
-      <div className="product-list"> 
-        {productList? productList.map((product, index) => {return(<Product key={product.productId} product={product} index={index} productList={productList} setProductList={setProductList} setAllProducts={setAllProducts}/>)}) : "Loading..."}
+      <div className="table">
+        <div className="row">
+          <div className="product-row">
+            <div className="column-name">Product ID</div>
+            <div className="column-name">Product Name</div>
+            <div className="column-name">Scrum Master</div>
+            <div className="column-name">Product Owner</div>
+            <div className="column-name">Developers</div>
+            <div className="column-name">Start Date</div>
+            <div className="column-name">Methodology</div>
+          </div>
+          {productList? productList.map((product, index) => {return(<Product key={product.productId} product={product} index={index} productList={productList} setProductList={setProductList} setAllProducts={setAllProducts}/>)}) : "Loading..."}
+        </div>
       </div>
     </div>
   );
