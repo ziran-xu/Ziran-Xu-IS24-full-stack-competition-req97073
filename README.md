@@ -1,6 +1,6 @@
 # IS-24 Full Stack Code Challenge req97073
 
-![image](https://user-images.githubusercontent.com/83620571/229233807-5acc611e-315a-4707-abc8-dbda23f59877.png)
+![image](https://user-images.githubusercontent.com/83620571/229234270-03dce444-06ae-4090-9d1c-aa7f17203c99.png)
 
 
 How to install and run:
