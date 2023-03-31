@@ -1,5 +1,8 @@
 # IS-24 Full Stack Code Challenge req97073
 
+![image](https://user-images.githubusercontent.com/83620571/229233807-5acc611e-315a-4707-abc8-dbda23f59877.png)
+
+
 How to install and run:
 
 Frontend Component: 
